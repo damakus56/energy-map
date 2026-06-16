@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas of Global Energy</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='6' fill='%234ea1ff'/%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%234ea1ff' stroke-opacity='0.4'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- Ambient background -->
+    <div class="bg-grain" aria-hidden="true"></div>
+
+    <!-- ===== LEVEL 1: MAP ===== -->
+    <section id="view-map" class="view view--active">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">ATLAS<span class="brand__thin"> / global energy</span></span>
+        </div>
+        <div class="topbar__hint" id="map-hint">Select a country</div>
+      </header>
+
+      <div class="hero">
+        <h1 class="hero__title" id="hero-title"></h1>
+        <p class="hero__sub" id="hero-sub"></p>
+      </div>
+
+      <div id="map-stage" class="map-stage">
+        <svg id="map" role="img" aria-label="World map of energy projects"></svg>
+        <div class="map-tooltip" id="map-tooltip" aria-hidden="true"></div>
+      </div>
+
+      <!-- Mobile / fallback selector -->
+      <div class="mobile-pick" id="mobile-pick">
+        <label for="country-select" class="mobile-pick__label">Jump to a country</label>
+        <select id="country-select" class="mobile-pick__select">
+          <option value="" disabled selected>Choose a country…</option>
+        </select>
+      </div>
+
+      <footer class="legend" id="legend">
+        <span class="legend__dot"></span>
+        <span class="legend__text" id="legend-text"></span>
+      </footer>
+    </section>
+
+    <!-- ===== LEVEL 2: COUNTRY ===== -->
+    <section id="view-country" class="view">
+      <header class="subhead">
+        <button class="back" data-target="map" type="button">
+          <span class="back__arrow" aria-hidden="true">←</span> Map
+        </button>
+        <div class="subhead__center">
+          <h2 class="subhead__title" id="country-name"></h2>
+          <p class="subhead__meta" id="country-meta"></p>
+        </div>
+        <div class="subhead__spacer"></div>
+      </header>
+
+      <div class="filters" id="filters"></div>
+
+      <div class="grid" id="project-grid"></div>
+    </section>
+
+    <!-- ===== LEVEL 3: PROJECT DETAIL ===== -->
+    <section id="view-project" class="view">
+      <header class="subhead">
+        <button class="back" id="back-to-country" type="button">
+          <span class="back__arrow" aria-hidden="true">←</span> <span id="back-country-label">Country</span>
+        </button>
+        <div class="subhead__center"></div>
+        <button class="back back--ghost" data-target="map" type="button">Map</button>
+      </header>
+
+      <div class="detail" id="detail"></div>
+    </section>
+
+  </div>
+
+  <script src="d3.v7.min.js"></script>
+  <script src="topojson.v3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

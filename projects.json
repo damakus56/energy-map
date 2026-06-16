@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "Atlas of Global Energy",
+    "subtitle": "An illustrative map of major oil, gas and LNG projects",
+    "disclaimer": "Sample dataset — figures are illustrative and not real-world fact.",
+    "accent": "#4ea1ff"
+  },
+  "countries": [
+    {
+      "name": "Qatar",
+      "projects": [
+        {
+          "id": "qa-northfield",
+          "name": "North Field East Expansion",
+          "type": "LNG terminal",
+          "status": "under construction",
+          "capacity": "32 Mtpa",
+          "output": "~4.4 Bcf/d feed gas",
+          "operator": "QatarEnergy",
+          "year": 2026,
+          "location": "Ras Laffan",
+          "description": "A flagship liquefaction expansion adding four new megatrains to one of the world's largest LNG hubs, lifting national export capacity in a single phase."
+        },
+        {
+          "id": "qa-rl3",
+          "name": "Ras Laffan Refinery III",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "146,000 bbl/d",
+          "output": "Condensate & naphtha",
+          "operator": "Laffan Refining Co.",
+          "year": 2017,
+          "location": "Ras Laffan Industrial City",
+          "description": "A condensate splitter complex producing naphtha, jet fuel and gasoil from North Field feedstock for regional and export markets."
+        },
+        {
+          "id": "qa-barzan",
+          "name": "Barzan Gas Plant",
+          "type": "gas plant",
+          "status": "operational",
+          "capacity": "1.4 Bcf/d",
+          "output": "Sales gas, ethane, helium",
+          "operator": "RasGas / QatarEnergy",
+          "year": 2015,
+          "location": "Ras Laffan",
+          "description": "An onshore processing facility supplying domestic power and industry, recovering ethane and liquids from offshore North Field gas."
+        },
+        {
+          "id": "qa-alshaheen",
+          "name": "Al Shaheen Offshore Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "300,000 bbl/d",
+          "output": "Crude oil",
+          "operator": "North Oil Company",
+          "year": 1994,
+          "location": "Persian Gulf, 80 km offshore",
+          "description": "A mature offshore oil field developed across multiple platforms, among the country's largest producing crude assets."
+        }
+      ]
+    },
+    {
+      "name": "United States of America",
+      "projects": [
+        {
+          "id": "us-sabinepass",
+          "name": "Sabine Pass LNG",
+          "type": "LNG terminal",
+          "status": "operational",
+          "capacity": "30 Mtpa",
+          "output": "Liquefied natural gas",
+          "operator": "Cheniere Energy",
+          "year": 2016,
+          "location": "Cameron Parish, Louisiana",
+          "description": "One of the first large-scale US export terminals, with six trains converting Gulf Coast shale gas into LNG for global delivery."
+        },
+        {
+          "id": "us-permian",
+          "name": "Permian Basin Gas Hub",
+          "type": "gas plant",
+          "status": "operational",
+          "capacity": "3.2 Bcf/d",
+          "output": "Processed sales gas, NGLs",
+          "operator": "Multiple midstream operators",
+          "year": 2019,
+          "location": "West Texas",
+          "description": "A cluster of cryogenic processing plants gathering associated gas from prolific shale oil production across the basin."
+        },
+        {
+          "id": "us-baytown",
+          "name": "Baytown Refinery",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "560,000 bbl/d",
+          "output": "Gasoline, diesel, petrochemicals",
+          "operator": "ExxonMobil",
+          "year": 1919,
+          "location": "Baytown, Texas",
+          "description": "An integrated refining and chemical complex on the Gulf Coast, among the largest in the Americas by crude throughput."
+        },
+        {
+          "id": "us-machoa",
+          "name": "Mad Dog Phase 2",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "140,000 bbl/d",
+          "output": "Crude oil",
+          "operator": "BP",
+          "year": 2023,
+          "location": "Gulf of Mexico",
+          "description": "A deepwater platform tapping a large oil reservoir via subsea wells in the central Gulf of Mexico."
+        },
+        {
+          "id": "us-plaquemines",
+          "name": "Plaquemines LNG",
+          "type": "LNG terminal",
+          "status": "under construction",
+          "capacity": "20 Mtpa",
+          "output": "Liquefied natural gas",
+          "operator": "Venture Global",
+          "year": 2025,
+          "location": "Plaquemines Parish, Louisiana",
+          "description": "A modular liquefaction project on the Mississippi River designed for rapid phased start-up of export trains."
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "projects": [
+        {
+          "id": "au-gorgon",
+          "name": "Gorgon LNG",
+          "type": "LNG terminal",
+          "status": "operational",
+          "capacity": "15.6 Mtpa",
+          "output": "LNG & domestic gas",
+          "operator": "Chevron",
+          "year": 2016,
+          "location": "Barrow Island, WA",
+          "description": "A three-train liquefaction project paired with one of the world's largest carbon capture and storage operations."
+        },
+        {
+          "id": "au-ichthys",
+          "name": "Ichthys Offshore Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "8.9 Mtpa LNG",
+          "output": "Gas, condensate, LPG",
+          "operator": "INPEX",
+          "year": 2018,
+          "location": "Browse Basin, WA",
+          "description": "A long-distance subsea-to-shore development piping gas hundreds of kilometres to an onshore liquefaction plant near Darwin."
+        },
+        {
+          "id": "au-northwest",
+          "name": "North West Shelf Gas Plant",
+          "type": "gas plant",
+          "status": "operational",
+          "capacity": "16.9 Mtpa",
+          "output": "LNG, domestic gas, condensate",
+          "operator": "Woodside Energy",
+          "year": 1989,
+          "location": "Karratha, WA",
+          "description": "Australia's foundational gas venture, processing offshore production for both export and domestic supply for decades."
+        },
+        {
+          "id": "au-scarborough",
+          "name": "Scarborough Development",
+          "type": "offshore field",
+          "status": "under construction",
+          "capacity": "8 Mtpa",
+          "output": "Natural gas",
+          "operator": "Woodside Energy",
+          "year": 2026,
+          "location": "Carnarvon Basin, WA",
+          "description": "A deepwater gas field feeding an expanded onshore train via a new export trunkline."
+        }
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "projects": [
+        {
+          "id": "ng-nlng",
+          "name": "Bonny Island NLNG",
+          "type": "LNG terminal",
+          "status": "operational",
+          "capacity": "22 Mtpa",
+          "output": "LNG & NGLs",
+          "operator": "Nigeria LNG Ltd",
+          "year": 1999,
+          "location": "Bonny Island, Rivers State",
+          "description": "West Africa's anchor LNG complex, with a major seventh train under development to lift export capacity further."
+        },
+        {
+          "id": "ng-dangote",
+          "name": "Dangote Refinery",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "650,000 bbl/d",
+          "output": "Petrol, diesel, jet fuel",
+          "operator": "Dangote Industries",
+          "year": 2024,
+          "location": "Lekki, Lagos",
+          "description": "A single-train mega refinery built to make the country a net exporter of refined products rather than crude."
+        },
+        {
+          "id": "ng-egina",
+          "name": "Egina Offshore Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "200,000 bbl/d",
+          "output": "Crude oil",
+          "operator": "TotalEnergies",
+          "year": 2018,
+          "location": "Offshore Niger Delta",
+          "description": "A deepwater field produced through a large FPSO vessel moored 150 km off the coast."
+        },
+        {
+          "id": "ng-obob",
+          "name": "Oben Gas Plant",
+          "type": "gas plant",
+          "status": "operational",
+          "capacity": "0.5 Bcf/d",
+          "output": "Domestic sales gas",
+          "operator": "Seplat Energy",
+          "year": 2015,
+          "location": "Edo State",
+          "description": "An onshore processing hub central to domestic gas-to-power supply across the southern grid."
+        }
+      ]
+    },
+    {
+      "name": "Norway",
+      "projects": [
+        {
+          "id": "no-johansverd",
+          "name": "Johan Sverdrup Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "755,000 bbl/d",
+          "output": "Crude oil",
+          "operator": "Equinor",
+          "year": 2019,
+          "location": "North Sea",
+          "description": "A giant field powered from shore by renewable electricity, among the largest oil developments on the Norwegian shelf."
+        },
+        {
+          "id": "no-troll",
+          "name": "Troll Gas Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "120 Mcm/d gas",
+          "output": "Natural gas, oil",
+          "operator": "Equinor",
+          "year": 1996,
+          "location": "North Sea",
+          "description": "A cornerstone of European gas supply, produced from one of the largest offshore gas accumulations in the region."
+        },
+        {
+          "id": "no-hammerfest",
+          "name": "Hammerfest LNG (Melkøya)",
+          "type": "LNG terminal",
+          "status": "operational",
+          "capacity": "4.3 Mtpa",
+          "output": "Liquefied natural gas",
+          "operator": "Equinor",
+          "year": 2007,
+          "location": "Melkøya, Arctic Norway",
+          "description": "Europe's northernmost LNG plant, liquefying gas piped from the Snøhvit field in the Barents Sea."
+        },
+        {
+          "id": "no-mongstad",
+          "name": "Mongstad Refinery",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "226,000 bbl/d",
+          "output": "Fuels & petrochemical feedstock",
+          "operator": "Equinor",
+          "year": 1975,
+          "location": "Mongstad, Vestland",
+          "description": "Norway's largest refinery and a key crude terminal on the country's west coast."
+        }
+      ]
+    },
+    {
+      "name": "Saudi Arabia",
+      "projects": [
+        {
+          "id": "sa-ghawar",
+          "name": "Ghawar Oil Field",
+          "type": "oil field",
+          "status": "operational",
+          "capacity": "3.8 M bbl/d",
+          "output": "Arabian Light crude",
+          "operator": "Saudi Aramco",
+          "year": 1951,
+          "location": "Eastern Province",
+          "description": "The largest conventional onshore oil field ever developed, the long-running backbone of national production."
+        },
+        {
+          "id": "sa-jafurah",
+          "name": "Jafurah Gas Development",
+          "type": "gas plant",
+          "status": "under construction",
+          "capacity": "2 Bcf/d",
+          "output": "Sales gas, ethane, NGLs",
+          "operator": "Saudi Aramco",
+          "year": 2025,
+          "location": "Eastern Province",
+          "description": "An unconventional gas megaproject built to grow domestic gas supply and feed petrochemical expansion."
+        },
+        {
+          "id": "sa-jazan",
+          "name": "Jazan Refinery",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "400,000 bbl/d",
+          "output": "Diesel, gasoline, benzene",
+          "operator": "Saudi Aramco",
+          "year": 2021,
+          "location": "Jazan Economic City",
+          "description": "An integrated refining and power complex on the Red Sea coast serving domestic demand and exports."
+        },
+        {
+          "id": "sa-safaniya",
+          "name": "Safaniya Offshore Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "1.3 M bbl/d",
+          "output": "Heavy crude oil",
+          "operator": "Saudi Aramco",
+          "year": 1957,
+          "location": "Persian Gulf",
+          "description": "The world's largest offshore oil field, producing heavy crude from shallow Gulf waters for decades."
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "projects": [
+        {
+          "id": "ca-lngcanada",
+          "name": "LNG Canada",
+          "type": "LNG terminal",
+          "status": "operational",
+          "capacity": "14 Mtpa",
+          "output": "Liquefied natural gas",
+          "operator": "LNG Canada JV",
+          "year": 2025,
+          "location": "Kitimat, British Columbia",
+          "description": "Canada's first large export terminal, shipping West Coast gas to Asian markets via a shorter Pacific route."
+        },
+        {
+          "id": "ca-hibernia",
+          "name": "Hibernia Offshore Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "135,000 bbl/d",
+          "output": "Crude oil",
+          "operator": "ExxonMobil-led JV",
+          "year": 1997,
+          "location": "Grand Banks, Newfoundland",
+          "description": "A gravity-base platform engineered to withstand iceberg impact in the harsh North Atlantic."
+        },
+        {
+          "id": "ca-syncrude",
+          "name": "Athabasca Oil Sands",
+          "type": "oil field",
+          "status": "operational",
+          "capacity": "1.1 M bbl/d",
+          "output": "Synthetic & bitumen crude",
+          "operator": "Multiple operators",
+          "year": 1978,
+          "location": "Fort McMurray, Alberta",
+          "description": "A vast unconventional resource producing upgraded synthetic crude from mined and in-situ bitumen."
+        },
+        {
+          "id": "ca-edmonton",
+          "name": "Edmonton Refinery Hub",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "430,000 bbl/d",
+          "output": "Fuels & diluent",
+          "operator": "Multiple operators",
+          "year": 1949,
+          "location": "Edmonton, Alberta",
+          "description": "A cluster of refineries processing oil-sands and conventional crude for the western Canadian market."
+        }
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "projects": [
+        {
+          "id": "ae-dasisland",
+          "name": "Das Island LNG",
+          "type": "LNG terminal",
+          "status": "operational",
+          "capacity": "5.8 Mtpa",
+          "output": "LNG & LPG",
+          "operator": "ADNOC",
+          "year": 1977,
+          "location": "Das Island, Abu Dhabi",
+          "description": "One of the earliest LNG export plants in the world, processing associated gas from offshore fields."
+        },
+        {
+          "id": "ae-ruwais",
+          "name": "Ruwais Refinery",
+          "type": "oil refinery",
+          "status": "operational",
+          "capacity": "817,000 bbl/d",
+          "output": "Fuels & petrochemicals",
+          "operator": "ADNOC",
+          "year": 1981,
+          "location": "Al Ruwais, Abu Dhabi",
+          "description": "A major integrated refining and chemicals complex anchoring a coastal industrial city."
+        },
+        {
+          "id": "ae-upper-zakum",
+          "name": "Upper Zakum Field",
+          "type": "offshore field",
+          "status": "operational",
+          "capacity": "1 M bbl/d",
+          "output": "Crude oil",
+          "operator": "ADNOC Offshore",
+          "year": 1982,
+          "location": "Persian Gulf",
+          "description": "A giant offshore field developed using artificial islands to lower long-term drilling costs."
+        },
+        {
+          "id": "ae-hail-ghasha",
+          "name": "Hail & Ghasha Gas",
+          "type": "gas plant",
+          "status": "under construction",
+          "capacity": "1.5 Bcf/d",
+          "output": "Sales gas with CCS",
+          "operator": "ADNOC",
+          "year": 2027,
+          "location": "Offshore Abu Dhabi",
+          "description": "A sour-gas megaproject paired with carbon capture, aimed at gas self-sufficiency."
+        }
+      ]
+    }
+  ]
+}
