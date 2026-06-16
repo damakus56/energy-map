@@ -2,7 +2,7 @@
    Atlas of Global Energy — minimal, dark, high-end
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap');
+/* fonts vendored locally — see fonts.css (loaded via <link> in index.html) */
 
 :root {
   --bg:        #07090c;
