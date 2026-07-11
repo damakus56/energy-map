@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>energy-map — project card</title><style>
+  :root { --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e;
+    --muted:#898781; --grid:#e1e0d9; --border:rgba(11,11,11,.10);
+    --accent:#2a78d6; --good:#0ca30c; --goodtext:#006300; --warn:#fab219; }
+  @media (prefers-color-scheme: dark) {
+    :root { --page:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7;
+      --grid:#2c2c2a; --border:rgba(255,255,255,.10); --accent:#3987e5; --goodtext:#0ca30c; } }
+  *{box-sizing:border-box} body{margin:0;background:var(--page);color:var(--ink);
+    font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 70px}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em;
+    background:color-mix(in srgb,var(--grid) 45%,transparent);padding:1px 5px;border-radius:4px}
+  .pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+    padding:2px 9px 2px 7px;border-radius:999px;border:1px solid var(--border);white-space:nowrap}
+  .pill::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--muted)}
+  .pill.active::before{background:var(--good)} .pill.active{color:var(--goodtext)}
+  .pill.done::before{background:var(--accent)}
+  .pill.paused::before{background:var(--warn)}
+  .pill.archived::before{background:var(--muted)} .pill.archived{color:var(--ink2)}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+  .card h3{margin:0;font-size:16px} .card .t{display:flex;justify-content:space-between;gap:10px;align-items:center}
+  .card .desc{color:var(--ink2);font-size:13.5px;margin:6px 0 10px}
+  .links{display:flex;flex-wrap:wrap;gap:7px;font-size:12.5px}
+  .links a,.links span{background:color-mix(in srgb,var(--grid) 45%,transparent);border-radius:6px;padding:3px 8px;color:var(--ink2)}
+  .links a{color:var(--accent)}
+  .meta{margin-top:10px;padding-top:9px;border-top:1px solid var(--grid);color:var(--muted);
+    font-size:11.5px;display:flex;gap:14px;flex-wrap:wrap}
+</style></head>
+<body><div class="wrap" style="max-width:640px">
+<p style="margin:0 0 14px"><a href="file:///home/sgh13/00-index/index.html">&larr; all projects</a></p>
+<div class="card">
+  <div class="t"><h3>energy-map</h3><span class="pill done">done</span></div>
+  <div class="desc">Interactive energy map website (public).</div>
+  <div class="links"><a href="https://github.com/damakus56/energy-map">github &#8599;</a></div>
+  <div class="meta"><span>domain: 02-energy-lng</span><span>static site</span><span>reviewed 2026-07-11</span></div>
+</div>
+<p style="color:var(--muted);font-size:12px;margin-top:14px">Generated from <code>project.json</code>
+by <code>~/00-index/generate.py</code> — edit the JSON, not this file.</p>
+</div></body></html>

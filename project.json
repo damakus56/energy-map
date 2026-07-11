@@ -1,0 +1,11 @@
+{
+  "name": "energy-map",
+  "domain": "02-energy-lng",
+  "status": "done",
+  "description": "Interactive energy map website (public).",
+  "stack": "static site",
+  "links": {
+    "github": "https://github.com/damakus56/energy-map"
+  },
+  "reviewed": "2026-07-11"
+}
